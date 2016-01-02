@@ -1,4 +1,4 @@
-# jekyll-json-cms
+# Jekyll JSON CMS
 
 A jekyll template made to serve content in JSON format. Administered your content with Github or prose.io and deploy your JSON API to Github pages.
 
@@ -118,4 +118,3 @@ Add a line and a `"key": "value"` pair and it will be found in the JSON output, 
 They make it easy to manage your content without using git
 
 * [Prose.io](http://prose.io/)
-* [CloudCannon](http://cloudcannon.com/)
