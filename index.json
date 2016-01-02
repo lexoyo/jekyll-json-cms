@@ -1,0 +1,13 @@
+---
+---
+{% assign isFirst = true %}
+[
+  {% for item in site.pages%}{% if item.name contains '.json' %}
+  {% if isFirst != true %},{% endif %}{% assign isFirst = false %}
+  {
+    "url": "{{ item.url | escape }}",
+    "path": "{{ item.path | escape }}",
+    "dir": "{{ item.dir | escape }}"
+  }{% endif %}{% endfor %}
+]
+
