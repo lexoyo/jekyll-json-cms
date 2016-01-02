@@ -1,6 +1,11 @@
 # jekyll-json-cms
 
-A Jekyll site used to serve json. To be administered with prose.io or cloudcannon, and deployed to github pages. 
+A jekyll template made to serve content in JSON format. Administered your content with Github or prose.io and deploy your JSON API to Github pages.
+
+Example of output routes: 
+
+* [list of routes](http://lexoyo.me/jekyll-json-cms/index.json)
+* [items of the folder `/example-route1/`](http://lexoyo.me/jekyll-json-cms/example-route1/index.json)
 
 ## Usecase
 
