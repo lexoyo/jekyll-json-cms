@@ -13,6 +13,13 @@ If you are running a static website and you need to manage items to be displayed
 
 [Jekyll](https://jekyllrb.com/) is perfect to generate JSON static files out of a hierarchy of flat markdown files. Also Github pages will build deploy using Jekyll without the need to install Jekyll. And there are tools which make it easy to edit the markdown files, upload images to github, and publish without using git.
 
+Other use cases
+
+* multiple photo galeries with description
+* articles to purchase, with a price and paypal link
+* blog posts to be displayed on an existing website
+* list of the people in your company with photo, bio and website
+
 ## Instructions
 
 Clone this repository and open `http://[YOUR GTHUB NAME].github.io/jekyll-json-cms/index.json`. This will list the folders which contain an `index.json` file with the content, i.e. the categories of items:
