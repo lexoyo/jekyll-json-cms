@@ -78,6 +78,41 @@ Navigate to a "route" or "category" like `http://[YOUR GTHUB NAME].github.io/jek
 
 Now start changing the markdown file `/example-route1/item1.md`, by hand (online on github you can edit files) or with a tool like those listed bellow. When you change or add a file, it changes or add an item in the JSON file located in the same folder.
 
+## Meta data
+
+To add data fields to the list of items, such as a price or description, add it to the "Front matter" section, which can be accessed in prose.io with the "settings" icon on the right, and which is simply a section at the beginning of your files, [see this file for example](https://raw.githubusercontent.com/lexoyo/jekyll-json-cms/gh-pages/example-route1/item1.md), it has the metadata `price` , `another-data`, `image`... 
+
+```
+---
+price: $99
+"another-data": test me lol
+published: true
+image: "/example-route1/jekyll-logo-light-solid-small.png"
+---
+## A New Item
+
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+
+![test]({{site.baseurl}}/example-route1/jekyll-logo-light-solid-small.png) and more text
+
+Lorem ipsum?
+```
+Add a line and a `"key": "value"` pair and it will be found in the JSON output, e.g. in `example-route1/index.json` you will have an item with 
+
+```
+   {
+      "price":"$99",
+      "another-data":"test me lol",
+      "published":true,
+      "image":"/example-route2/jekyll-logo-light-solid-small.png",
+      "content":"## A New Item\n\nEnter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.\n",
+      "dir":"/example-route1",
+      "name":"item1.md",
+      "path":"example-route1/item1.md",
+      "url":"/example-route1/item1.html"
+   }
+```
+
 ## Tools to manage content
 
 They make it easy to manage your content without using git
