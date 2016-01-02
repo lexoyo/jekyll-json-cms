@@ -7,7 +7,7 @@ Example of output routes:
 * [list of routes](http://lexoyo.me/jekyll-json-cms/index.json)
 * [items of the folder `/example-route1/`](http://lexoyo.me/jekyll-json-cms/example-route1/index.json)
 
-![Content edition in prose.io]({{site.baseurl}}/screenshots/prose.io-1.png)
+![Content edition in prose.io](screenshots/prose.io-1.png)
 
 ## Usecase
 
