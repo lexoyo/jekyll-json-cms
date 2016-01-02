@@ -9,7 +9,7 @@ Example of output routes:
 
 Here is how content edition looks in prose.io:
 
-![Content edition in prose.io](screenshots/prose.io-1.png)
+![Content edition in prose.io]({{site.baseurl}}/screenshots/prose.io-1.png)
 
 ## Usecase
 
