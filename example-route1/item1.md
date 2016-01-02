@@ -2,7 +2,7 @@
 price: $99
 "another-data": test me lol
 published: true
-image: "/example-route2/jekyll-logo-light-solid-small.png"
+image: "/example-route1/jekyll-logo-light-solid-small.png"
 ---
 
 
