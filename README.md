@@ -1,6 +1,6 @@
 # Jekyll JSON CMS
 
-A jekyll template made to serve content in JSON format. Administered your content with Github or prose.io and deploy your JSON API to Github pages.
+A jekyll template made to serve content in JSON format. Administered your content with Github or [prose.io](http://prose.io/) and deploy your JSON API to Github pages.
 
 Example of output routes: 
 
