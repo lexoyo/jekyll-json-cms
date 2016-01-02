@@ -7,6 +7,8 @@ Example of output routes:
 * [list of routes](http://lexoyo.me/jekyll-json-cms/index.json)
 * [items of the folder `/example-route1/`](http://lexoyo.me/jekyll-json-cms/example-route1/index.json)
 
+![Content edition in prose.io]({{site.baseurl}}/Screenshot%20from%202016-01-02%2011-28-07.png)
+
 ## Usecase
 
 If you are running a static website and you need to manage items to be displayed in your website, with pictures and text and other meta data, then you need a tool to generate json files.
@@ -79,4 +81,4 @@ Now start changing the markdown file `/example-route1/item1.md`, by hand (online
 They make it easy to manage your content without using git
 
 * [Prose.io](http://prose.io/)
-* [CloudCannon](http://cloudcannon.com/) 
+* [CloudCannon](http://cloudcannon.com/)
